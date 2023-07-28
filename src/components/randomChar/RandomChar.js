@@ -114,8 +114,6 @@ class View extends Component {
     render() {
 
         const {name, description, thumbnail, homepage, wiki} = this.props.char;
-
-        console.log(thumbnail);
         
         const styleImageChar = thumbnail.includes('image_not_available') ? {objectFit: 'contain'} : null;
 
